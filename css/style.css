@@ -1,26 +1,12 @@
 html,body{ font-family:Microsoft YaHei ; }
 
-
-
-
-
 .fl{ float:left}
 .fr{ float:right}
 
-
-
-
-
 .navbar-top{  background:#f84634; margin:0}
-
 .sico{ width: 30px; height: 30px; margin: 10px 10px 0;background-position:center center; background-size:contain; background-repeat:no-repeat}
-
 .sico1{ background-image:url(../images/ico1.png)}
 .sico2{ background-image:url(../images/ico2.png)}
-
-
-
-
 
 .m_ico{ height:120px;margin: 3px; border-radius:12px; overflow:hidden}
 .m_ico1{ background: #fd8b45;
@@ -70,17 +56,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7eb4d', end
 .m_ico6 b{background-image:url(../images/a_ico4.png)}
 
 
-
 .m_ico p{ color: #fff;font-size: 18px;margin: 12px 0 0 0;text-align:center}
-
 .nv_row{ margin:10px 3% 10px}
-.daohang{ padding:10px 0; overflow:hidden}
+.daohang{ padding-bottom: 10px; overflow:hidden}
 
 
 
 
+.main_search{ background:#f3f3f3;    position: relative;}
+.main_search .m_txt{border: 0;width: 80%;background: none;}
+.main_search .search_btn{padding: 4px;position: absolute;right: 0;top: 0;}
+.hang{border-top: 1px solid #e3e3e3;border-bottom: 1px solid #e3e3e3;height: 20px;background-color: #ececec;}
 
 
+.tittle{ height: 44px;}
+.tittle h2{ margin-top: 12px;margin-left: 3%;height: 24px; line-height: 24px; border-left:6px solid #f2372e; padding-left:11px; display:inline-block ;font-size: 16px;}
+.tittle .more{ float:right; color:#999; margin: 14px 8px 0 0;} 
+.tittle .con{ color:#666}
+
+.border1{background:#ececec; border-top:1px solid #e3e3e3; overflow:hidden}
 
 
+.img_link{padding:0; margin:5px 0}
+.img_link li{ padding:0; margin:5px 0}
+.img_link li img{ width:100%}
+
+
+@media (min-width: 321px) {
+	.m_ico {height: 90px; border-radius: 12px;}
+	.m_ico b{height: 42px; margin-top: 11px;}
+	.m_ico p{font-size: 16px;margin: 6px 0 0 0;}
+	}
+	
+@media (min-width: 721px) {
+	.m_ico {height: 120px; border-radius: 12px;}
+	.m_ico b{height: 52px; margin-top: 15px;}
+	.m_ico p{font-size: 18px;margin: 12px 0 0 0;}
+	}	
+	
 
