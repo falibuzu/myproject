@@ -81,6 +81,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7eb4d', end
 .img_link li{ padding:0; margin:5px 0}
 .img_link li img{ width:100%}
 
+.list-top{}
+.list-top img{ width:100%}
+
+.bx_right{ float:right}
+.bx_left{ float:left}
+
+.bx_left .bm{ margin-right:5px}
+
+.bx_left .sm{margin-left:5px}
 
 @media (min-width: 321px) {
 	.m_ico {height: 90px; border-radius: 12px;}
