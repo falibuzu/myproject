@@ -1,0 +1,44 @@
+.chose{
+    ;
+    height: 2.5pc;
+    line-height: 2.5pc;
+}
+.chose li{
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+.chose .cho{
+    font-size: 1.2pc;
+}
+.cp_img{}
+.cp_img img{ width: 100%; height: 100%}
+.potin{ background-repeat: no-repeat;background-position: 90% center;}
+.pt1{ background-image: url(../images/point1.gif)}
+.pt2{background-image: url(../images/point2.gif)}
+
+
+.ms_txt{;padding: 10px 10px 0;font-size: 1.2pc;}
+.txta{;padding: 10px;line-height: 1.4pc;margin-bottom: 8px;}
+.jiage{font-size: 1.8pc;float: right;}
+.ping{color: #888;}
+
+
+
+@media (min-width:321px){
+	
+}
+@media (min-width:721px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+

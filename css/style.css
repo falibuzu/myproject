@@ -1,106 +1,54 @@
-html,body{ font-family:Microsoft YaHei ; }
-
-.fl{ float:left}
-.fr{ float:right}
-
-.navbar-top{  background:#f84634; margin:0}
-.sico{ width: 30px; height: 30px; margin: 10px 10px 0;background-position:center center; background-size:contain; background-repeat:no-repeat}
-.sico1{ background-image:url(../images/ico1.png)}
-.sico2{ background-image:url(../images/ico2.png)}
-
-.m_ico{ height:120px;margin: 3px; border-radius:12px; overflow:hidden}
-.m_ico1{ background: #fd8b45;
-background: -moz-linear-gradient(top,  #fd8b45 0%, #fc7538 100%);
-background: -webkit-linear-gradient(top,  #fd8b45 0%,#fc7538 100%);
-background: linear-gradient(to bottom,  #fd8b45 0%,#fc7538 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd8b45', endColorstr='#fc7538',GradientType=0 );
-}
-.m_ico2{background: #ffcc25;
-background: -moz-linear-gradient(top,  #ffcc25 0%, #ffba1f 100%);
-background: -webkit-linear-gradient(top,  #ffcc25 0%,#ffba1f 100%);
-background: linear-gradient(to bottom,  #ffcc25 0%,#ffba1f 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc25', endColorstr='#ffba1f',GradientType=0 );
-}
-.m_ico3{background: #25bff8;
-background: -moz-linear-gradient(top,  #25bff8 0%, #11a4ef 100%);
-background: -webkit-linear-gradient(top,  #25bff8 0%,#11a4ef 100%);
-background: linear-gradient(to bottom,  #25bff8 0%,#11a4ef 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25bff8', endColorstr='#11a4ef',GradientType=0 );
-}
-.m_ico4{background: #8b7ac1;
-background: -moz-linear-gradient(top,  #8b7ac1 0%, #6b58aa 100%);
-background: -webkit-linear-gradient(top,  #8b7ac1 0%,#6b58aa 100%);
-background: linear-gradient(to bottom,  #8b7ac1 0%,#6b58aa 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b7ac1', endColorstr='#6b58aa',GradientType=0 );
-}
-.m_ico5{background: #ff5e56;
-background: -moz-linear-gradient(top,  #ff5e56 0%, #f1483f 100%);
-background: -webkit-linear-gradient(top,  #ff5e56 0%,#f1483f 100%);
-background: linear-gradient(to bottom,  #ff5e56 0%,#f1483f 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e56', endColorstr='#f1483f',GradientType=0 );
-}
-.m_ico6{background: #c7eb4d;
-background: -moz-linear-gradient(top,  #c7eb4d 0%, #95cf19 100%);
-background: -webkit-linear-gradient(top,  #c7eb4d 0%,#95cf19 100%);
-background: linear-gradient(to bottom,  #c7eb4d 0%,#95cf19 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7eb4d', endColorstr='#95cf19',GradientType=0 );
-}
-
-
-.m_ico b{height: 52px; margin-top: 15px;background-position:center center; background-size:contain; background-repeat:no-repeat; display:block}
+.m_ico{overflow:hidden;margin:3px;height:90pt;border-radius:9pt}
+.m_ico1{background:#fd8b45;background:-webkit-linear-gradient(top,#fd8b45 0,#fc7538 100%);background:linear-gradient(to bottom,#fd8b45 0,#fc7538 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd8b45', endColorstr='#fc7538', GradientType=0)}
+.m_ico2{background:#ffcc25;background:-webkit-linear-gradient(top,#ffcc25 0,#ffba1f 100%);background:linear-gradient(to bottom,#ffcc25 0,#ffba1f 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcc25', endColorstr='#ffba1f', GradientType=0)}
+.m_ico3{background:#25bff8;background:-webkit-linear-gradient(top,#25bff8 0,#11a4ef 100%);background:linear-gradient(to bottom,#25bff8 0,#11a4ef 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25bff8', endColorstr='#11a4ef', GradientType=0)}
+.m_ico4{background:#8b7ac1;background:-webkit-linear-gradient(top,#8b7ac1 0,#6b58aa 100%);background:linear-gradient(to bottom,#8b7ac1 0,#6b58aa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8b7ac1', endColorstr='#6b58aa', GradientType=0)}
+.m_ico5{background:#ff5e56;background:-webkit-linear-gradient(top,#ff5e56 0,#f1483f 100%);background:linear-gradient(to bottom,#ff5e56 0,#f1483f 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5e56', endColorstr='#f1483f', GradientType=0)}
+.m_ico6{background:#c7eb4d;background:-webkit-linear-gradient(top,#c7eb4d 0,#95cf19 100%);background:linear-gradient(to bottom,#c7eb4d 0,#95cf19 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7eb4d', endColorstr='#95cf19', GradientType=0)}
+.m_ico b{display:block;margin-top:15px;height:52px;background-position:center center;background-size:contain;background-repeat:no-repeat}
 .m_ico1 b{background-image:url(../images/a_ico1.png)}
 .m_ico2 b{background-image:url(../images/a_ico2.png)}
 .m_ico3 b{background-image:url(../images/a_ico3.png)}
-.m_ico4 b{background-image:url(../images/a_ico4.png)}
-.m_ico5 b{background-image:url(../images/a_ico4.png)}
-.m_ico6 b{background-image:url(../images/a_ico4.png)}
+.m_ico4 b,.m_ico5 b,.m_ico6 b{background-image:url(../images/a_ico4.png)}
+.m_ico p{margin:9pt 0 0;color:#fff;text-align:center;font-size:18px}
+.nv_row{margin:10px 3%}
+.daohang{overflow:hidden;padding-bottom:10px}
+.main_search{position:relative;background:#f3f3f3}
+.main_search .m_txt{width:80%;border:0;background:0 0}
+.main_search .search_btn{position:absolute;top:0;right:0;padding:4px}
 
-
-.m_ico p{ color: #fff;font-size: 18px;margin: 12px 0 0 0;text-align:center}
-.nv_row{ margin:10px 3% 10px}
-.daohang{ padding-bottom: 10px; overflow:hidden}
-
-
-
-
-.main_search{ background:#f3f3f3;    position: relative;}
-.main_search .m_txt{border: 0;width: 80%;background: none;}
-.main_search .search_btn{padding: 4px;position: absolute;right: 0;top: 0;}
-.hang{border-top: 1px solid #e3e3e3;border-bottom: 1px solid #e3e3e3;height: 20px;background-color: #ececec;}
-
-
-.tittle{ height: 44px;}
-.tittle h2{ margin-top: 12px;margin-left: 3%;height: 24px; line-height: 24px; border-left:6px solid #f2372e; padding-left:11px; display:inline-block ;font-size: 16px;}
-.tittle .more{ float:right; color:#999; margin: 14px 8px 0 0;} 
-.tittle .con{ color:#666}
-
-.border1{background:#ececec; border-top:1px solid #e3e3e3; overflow:hidden}
-
-
-.img_link{padding:0; margin:5px 0}
-.img_link li{ padding:0; margin:5px 0}
-.img_link li img{ width:100%}
-
-.list-top{}
-.list-top img{ width:100%}
-
-.bx_right{ float:right}
-.bx_left{ float:left}
-
-.bx_left .bm{ margin-right:5px}
-
+.tittle{height:44px}
+.tittle h2{display:inline-block;margin-top:9pt;margin-left:3%;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
+.tittle .more{float:right;margin:14px 8px 0 0;color:#999}
+.tittle .con{color:#666}
+.border1{overflow:hidden;border-top:1px solid #e3e3e3;background:#ececec}
+.img_link,.img_link li{margin:5px 0;padding:0}
+.img_link li img{width:100%}
+.list-top{overflow:hidden}
+.list-top img{width:100%}
+.bx_right{float:right}
+.bx_left{float:left}
+.bx_left .bm{margin-right:5px}
 .bx_left .sm{margin-left:5px}
+.list-cp{padding-bottom: 10px;overflow:hidden;margin: 4px 0 0 1.5%;}
+.list-cp li{overflow: hidden;margin: 8px 0 0 3%;float:left;width: 45%;border-radius:6px;background-color:#fff;padding-bottom: 4px;}
+.list-cp li .imgx{margin:8px;text-align:center}
+.list-cp li .imgx img{margin:auto;max-width:100%}
+.list-cp li .tx{margin:4px 8px;font-weight:700;font-size:1pc;line-height:22px}
+.list-cp li .money_line{line-height:2pc}
+.list-cp li .money{font-family: 'Helvetica';padding-left:4%;font-weight:700;font-size: 1.2pc;}
 
-@media (min-width: 321px) {
-	.m_ico {height: 90px; border-radius: 12px;}
-	.m_ico b{height: 42px; margin-top: 11px;}
-	.m_ico p{font-size: 16px;margin: 6px 0 0 0;}
-	}
-	
-@media (min-width: 721px) {
-	.m_ico {height: 120px; border-radius: 12px;}
-	.m_ico b{height: 52px; margin-top: 15px;}
-	.m_ico p{font-size: 18px;margin: 12px 0 0 0;}
-	}	
-	
+.ggc{vertical-align: middle;float:right;display:block;margin: 2px 5% 0 0;width: 40%;height: 1.8pc;border-radius:4px;background: #fc462a url("../images/ggc.png") center center no-repeat;background-size: auto 60%;} 
 
+
+
+
+
+@media (min-width:321px){.m_ico{height:90px;border-radius:9pt}
+.m_ico b{margin-top:11px;height:42px}
+.m_ico p{margin:6px 0 0;font-size:1pc}
+}
+@media (min-width:721px){.m_ico{height:90pt;border-radius:9pt}
+.m_ico b{margin-top:15px;height:52px}
+.m_ico p{margin:9pt 0 0;font-size:18px}
+}

@@ -1,0 +1,24 @@
+html,body{ font-family:Microsoft YaHei; }
+img { border: none; }
+ul, li ,p { margin: 0; padding: 0; }
+li { list-style: none;  }
+
+
+.fl{ float:left}
+.fr{ float:right}
+
+.navbar-top{  background:#f84634; margin:0}
+.sico{ width: 30px; height: 30px; margin: 10px 10px 0;background-position:center center; background-size: 80% auto; background-repeat:no-repeat}
+.sico1{ background-image:url(../images/ico1.png)}
+.sico2{ background-image:url(../images/ico2.png)}
+.sico3{ background-image:url(../images/ico3.png)}
+.sico4{ background-image:url(../images/ico4.png)}
+
+.navbar-top .tittle{font-size: 22px;text-align: center;color: #fff;line-height: 48px;}
+.foot{ font-size: 0.7pc;line-height: 32px; background: #333; color:#fff; text-align: center; clear:both}
+.hang{height:20px;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;background-color:#ececec}
+
+
+.hang2{height:10px;background-color:#ebecf1}
+.hang3{height:5px;background-color:#ebecf1}
+.red{color:#dc1111}
