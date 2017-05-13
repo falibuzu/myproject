@@ -17,6 +17,7 @@
 .main_search .m_txt{width:80%;border:0;background:0 0}
 .main_search .search_btn{position:absolute;top:0;right:0;padding:4px}
 
+.carousel-inner .item img{ width: 100%}
 .tittle{height:44px}
 .tittle h2{display:inline-block;margin-top:9pt;margin-left:3%;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
 .tittle .more{float:right;margin:14px 8px 0 0;color:#999}
