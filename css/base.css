@@ -1,4 +1,4 @@
-html,body{ font-family:Microsoft YaHei;height:100% }
+html,body{ font-family:Microsoft YaHei;height:100%;max-width: 1000px; }
 img { border: none; }
 ul, li ,p { margin: 0; padding: 0; }
 li { list-style: none;  }
@@ -8,7 +8,7 @@ li { list-style: none;  }
 .fr{ float:right}
 
 .navbar-top{  background:#f84634; margin:0}
-.sico{ width: 30px; height: 30px; margin: 10px 10px 0;background-position:center center; background-size: 80% auto; background-repeat:no-repeat}
+.sico{ width: 30px; height: 30px; margin: 10px 10px 0;background-position:center center; background-size: 80% auto; background-repeat:no-repeat;display: block;}
 .sico1{ background-image:url(../images/ico1.png)}
 .sico2{ background-image:url(../images/ico2.png)}
 .sico3{ background-image:url(../images/ico3.png)}
@@ -22,3 +22,9 @@ li { list-style: none;  }
 .hang2{height:10px;background-color:#ebecf1}
 .hang3{height:5px;background-color:#ebecf1}
 .red{color:#dc1111}
+.wf3{ position: relative;float: left;width:33.3%}
+.wf2{ position: relative;float: left;width: 50%;}
+.bord_l{ position: absolute;border-right:1px solid #d2d4dc; top: 0;bottom: 0; left:0}
+.bord_r{position: absolute;border-left:1px solid #d2d4dc; top: 0;bottom: 0;right:0}
+
+.hs{ color:#999}

@@ -1,0 +1,49 @@
+.ico_ok{ margin: 4% auto;text-align: center;}
+.ico_ok img{
+    width: 15vw;
+}
+.gx_ok{
+    font-size: 6vw;
+    color: #89cb5e;
+    text-align: center;
+}
+.money2{
+    text-align: center;
+    font-size: 9vh;
+}
+.linex{ margin: 2% 4% 6%;border-bottom:1px solid #666}
+
+.lineb{
+    line-height: 7vh;
+    margin: 0 4%;
+    color: #9a9a9a;
+    font-size: 3vh;
+}
+.lineb .lie_r{
+    float: right;
+}
+.linef{
+    margin: 2%;
+    text-align: right;
+}
+.btn_b{
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff;
+    font-size: 5vw;
+    margin-right: 2%;
+}
+.bg_y{
+    background-color: #fdce04;
+}
+.bg_r{
+    background-color: #ff544c;
+}
+
+
+
+
+
+
+

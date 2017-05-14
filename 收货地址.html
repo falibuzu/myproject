@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <!--
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<title>会员详情</title>
+
+
+
+
+
+<title>收货地址</title>
+
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/gr_houtai.css">
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -22,45 +31,46 @@
     <![endif]-->
 </head>
 <body>
-<div class="navbar navbar-top">
-  <div class="sico sico3 fl"></div>
-  <div class="sico sico4 fr"></div>
-  <div class="tittle">购物商城</div>
-</div>
 
+
+ <div class="navbar navbar-top">
+ <a class="sico sico3 fl"></a>
+ <div class="sico sico1 fr"></div>
+ <div class="tittle">收货地址</div>
+ </div>
+ 
 <div class="xq_lin">
-  <div class="tx"><img src="images/people.jpg" alt=""/> <a href="" class="cg_tx">修改头像</a></div>
-  <div class="xq_h">昵称</div>
-  <input type="text"  class="ipt_name" value="用户名称">
-</div>
-
-<div class="xq_lin">
-
-  <div class="xq_h">性别</div>
-  <div  class="txb">保密</div>
-</div>
-
-<div class="xq_lin">
-
-  <div class="xq_h">收货地址</div>
-  <div  class="txb">上海市桥东区雨巷小区 D单元 2218室</div>
-</div>
-
-<div class="xq_lin">
-
-  <div class="xq_h">联系电话</div>
-  <div  class="txb">13184***411</div>
+  <div class="xq_p ">收货人:</div>
+  <div class="tx_p"><input name="" type="text" value="请输入收货人的姓名"></div>
 </div>
 <div class="xq_lin">
-
-  <div class="xq_h">登录密码</div>
-  <div  class="txb"><span>asdkfhalkjhwer</span> <a href="#">显示</a></div>
+  <div class="xq_p ">联系方式:</div>
+  <div class="tx_p"><input name="" type="text" value="请输入收货人的电话"></div>
 </div>
-<div class="bubai"></div>
-<a href="#" class="ok_btn position_btn">保 存</a>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<div class="xq_lin">
+  <div class="xq_p ">所在地区:</div>
+  <div class="tx_p"><select name="">
+    <option>选择城市</option>
+  </select></div>
+</div>
+<div class="xq_lin">
+  <div class="xq_p ">详细地址:</div>
+  <div class="tx_p"><input name="" type="text" value="请输入详细的地址"></div>
+</div>
+<div class="xq_lin">
+  <div class="xq_p ">收货人:</div>
+  <div class="tx_p"><input name="" type="text" value="请输入收货人的姓名"></div>
+</div>
+
+<a href="#" class="ok_btn" style="margin-top:4%">保 存</a>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+
 </body>
 </html>

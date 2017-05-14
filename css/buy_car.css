@@ -1,0 +1,89 @@
+.cp_line{
+    margin: 2% 0;
+    overflow: hidden;
+    position: relative;
+}
+.chose_d{ width: 7vw;position: absolute;background-repeat:no-repeat;height: 6vh;background-size: contain;top: 33%;left: 2%;}
+.cn{ background-image: url(../images/q_n.png);}
+.cy{background-image:url(../images/q_y.png)}
+
+
+.cp_line .imgd{
+    margin-left: 12vw;
+    float: left;
+}
+.cp_line .imgd img{
+    border: 1px solid #CECECE;
+    width: 26vw;
+}
+.cp_line .tx_r{
+    float: right;
+    width: 57vw;
+}
+.cp_line .tp{
+    line-height: 7vw;
+    font-size: 3.6vw;
+}
+.cp_line .money3{
+    color: #ff544b;
+    font-size: 4vh;
+}
+.cp_line .pl{
+    color: #aaa;
+}
+.chose_btn{
+    line-height: 10vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.chose_btn li{
+    float: left;
+    text-align: center;
+    font-size: 5vw;
+}
+.chose_btn li img{
+    height: 3.5vh;
+}
+.chos_all{
+    background-color: #fff;
+    width: 34%;
+}
+.del{
+    color: #fff;
+    background-color: #a4a4a4;
+    width: 31%;
+}
+.buy{
+    background-color: #ff544b;
+    width: 35%;
+    color: #fff;
+}
+.btn_del{
+    display: block;
+    position: absolute;
+    right: 3%;
+    bottom: 6%;
+    border: 1px solid #AFAFAF;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
