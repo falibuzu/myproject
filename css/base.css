@@ -23,7 +23,7 @@ li { list-style: none;  }
 .hang3{height:5px;background-color:#ebecf1}
 .red{color:#dc1111}
 .wf3{ position: relative;float: left;width:33.3%}
-.wf2{ position: relative;float: left;width: 50%;}
+.wf2{ display: block;position: relative;float: left;width: 50%;}
 .bord_l{ position: absolute;border-right:1px solid #d2d4dc; top: 0;bottom: 0; left:0}
 .bord_r{position: absolute;border-left:1px solid #d2d4dc; top: 0;bottom: 0;right:0}
 
