@@ -2,7 +2,7 @@ html,body{ font-family:Microsoft YaHei;height:100%;max-width: 1000px; }
 img { border: none; }
 ul, li ,p { margin: 0; padding: 0; }
 li { list-style: none;  }
-
+body{position:relative}
 
 .fl{ float:left}
 .fr{ float:right}

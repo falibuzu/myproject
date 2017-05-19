@@ -20,7 +20,7 @@
 .tx{ height: 58px;width: 40%;float:right}
 .tx img{ height: 90%;}
 
-.xq_lin{margin: 0 3%;overflow: hidden;border-bottom: 1px solid #d6d9e2;line-height: 10vh;}
+.xq_lin{margin: 0 3%;overflow: hidden;border-bottom: 1px solid #d6d9e2;line-height: 60px;}
 .cg_tx{
     color: #949494;
     text-align: center;
@@ -170,18 +170,18 @@ height: 4.3vh;/* width: 88%; */}
     padding-left: 2%;
     color: #333;
     /* text-align: center; */
-    font-size: 5vw;
+    font-size: 20px;
     width: 25%;
     display: inline-block;
 }
 .tx_p {
     width: 70%;
     color: #AAA;
-    font-size: 4vw;
+    font-size: 20px;
     display: inline-block;
 }
 .tx_p input[type="text"]{ width: 100%;border:none}
-.tx_p select{ font-size: 3vh;/* width: 70%; */border:none}
+.tx_p select{ font-size: 20px;/* width: 70%; */border:none}
 
 
 
