@@ -1,22 +1,28 @@
-body{background: url( ../images/login_bg.png) center top no-repeat;    background-size: 100% 50%;}
+body {
+    background: url( ../images/login_bg.png) center top no-repeat;
+    background-size: contain;
+}
 
 
-.logo{
+.logo {
     position: absolute;
     top: 14%;
     left: 20%;
     right: 20%;
 }
-.logo img{
-    width: 100%;
-}
-.login_box{
+
+    .logo img {
+        width: 100%;
+    }
+
+.login_box {
     right: 4px;
     left: 4%;
     position: absolute;
     top: 50%;
 }
-.lin{
+
+.lin {
     font-size: 1.3pc;
     margin-top: 14px;
     border-bottom: 1px solid #d6d9e2;
@@ -24,23 +30,37 @@ body{background: url( ../images/login_bg.png) center top no-repeat;    backgroun
     clear: both;
     overflow: hidden;
 }
-.lin .ico{text-align: center;width: 40px;float: left;}
-.lin .ico img{}
-.lin .ipt{
-    line-height: 30px;
-    /* float: left; */
-}
-.lin .ipt input{
-background: none;border: none;padding-left: 4px;width: 60%;}
 
-.lin_h{
+    .lin .ico {
+        text-align: center;
+        width: 40px;
+        float: left;
+    }
+
+        .lin .ico img {
+        }
+
+    .lin .ipt {
+        line-height: 30px;
+        /* float: left; */
+    }
+
+        .lin .ipt input {
+            background: none;
+            border: none;
+            padding-left: 4px;
+            width: 60%;
+        }
+
+.lin_h {
     color: #8C8C8C;
 }
-.lin .cls{
+
+.lin .cls {
     float: right;
 }
 
-.deng_btn{
+.deng_btn {
     display: block;
     background-color: #ff544b;
     line-height: 55px;
@@ -51,11 +71,12 @@ background: none;border: none;padding-left: 4px;width: 60%;}
     margin-top: 15%;
 }
 
-.zc{
+.zc {
     text-align: right;
     padding-top: 4%;
     padding-right: 2%;
 }
-.zc a{
-    color: #9C9C9C;
-}
+
+    .zc a {
+        color: #9C9C9C;
+    }

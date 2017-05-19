@@ -11,7 +11,7 @@
 .m_ico3 b{background-image:url(../images/a_ico3.png)}
 .m_ico4 b,.m_ico5 b,.m_ico6 b{background-image:url(../images/a_ico4.png)}
 .m_ico p{margin:9pt 0 0;color:#fff;text-align:center;font-size:18px}
-.nv_row{margin: 10px 20px;}
+.nv_row{margin:10px 3%}
 .daohang{overflow:hidden;padding-bottom:10px}
 .main_search{position:relative;background:#f3f3f3}
 .main_search .m_txt{width:80%;border:0;background:0 0}
@@ -19,8 +19,8 @@
 
 .carousel-inner .item img{ width: 100%}
 .tittle{height:44px}
-.tittle h2{display:inline-block;margin-top:9pt;margin-left: 20px;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
-.tittle .more{float:right;margin: 14px 20px 0 0;color:#999}
+.tittle h2{display:inline-block;margin-top:9pt;margin-left:3%;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
+.tittle .more{float:right;margin:14px 8px 0 0;color:#999}
 .tittle .con{color:#666}
 .border1{overflow:hidden;border-top:1px solid #e3e3e3;background:#ececec}
 .img_link,.img_link li{margin:5px 0;padding:0}
