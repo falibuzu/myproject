@@ -1,39 +1,41 @@
 .cp_line{
-    margin: 2% 0;
+    margin: 5px 0;
     overflow: hidden;
     position: relative;
 }
-.chose_d{ width: 7vw;position: absolute;background-repeat:no-repeat;height: 6vh;background-size: contain;top: 33%;left: 2%;}
+.chose_d{ width: 22px;position: absolute;background-repeat:no-repeat;height: 22px;background-size: contain;top: 22px;left: 4px;}
 .cn{ background-image: url(../images/q_n.png);}
 .cy{background-image:url(../images/q_y.png)}
 
 
 .cp_line .imgd{
-    margin-left: 12vw;
+    margin-left: 34px;
     float: left;
 }
 .cp_line .imgd img{
     border: 1px solid #CECECE;
-    width: 26vw;
+    width: 84px;
+    height: 91px;
 }
 .cp_line .tx_r{
     float: right;
     width: 57vw;
 }
 .cp_line .tp{
-    line-height: 7vw;
-    font-size: 3.6vw;
+    line-height: 18px;
+    font-size: 12px;
 }
 .cp_line .money3{
     color: #ff544b;
-    font-size: 4vh;
+    font-size: 22px;
 }
 .cp_line .pl{
+    font-size: 15px;
     color: #aaa;
 }
 .chose_btn{
-    line-height: 10vh;
-    position: absolute;
+    line-height: 54px;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -41,7 +43,7 @@
 .chose_btn li{
     float: left;
     text-align: center;
-    font-size: 5vw;
+    font-size: 20px;
 }
 .chose_btn li img{
     height: 3.5vh;
@@ -50,6 +52,8 @@
     background-color: #fff;
     width: 34%;
 }
+.chos_all i{margin-top: 4px;margin-right: 8px;width: 20px;display:inline-block; background: url(../images/q_n.png) no-repeat center center; background-size: 20px;height: 20px;vertical-align: text-top;}
+.on i{margin-top: 4px;margin-right: 8px;width: 20px;display:inline-block; background: url(../images/q_y.png) no-repeat center center; background-size: 20px;height: 20px;vertical-align: text-top;}
 .del{
     color: #fff;
     background-color: #a4a4a4;
@@ -63,7 +67,7 @@
 .btn_del{
     display: block;
     position: absolute;
-    right: 3%;
+    right: 10px;
     bottom: 6%;
     border: 1px solid #AFAFAF;
     padding: 4px 12px;

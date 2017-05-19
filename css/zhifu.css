@@ -1,23 +1,23 @@
-.ico_ok{ margin: 4% auto;text-align: center;}
+.ico_ok{ margin: 20px auto;text-align: center;}
 .ico_ok img{
-    width: 15vw;
+    width: 70px;
 }
 .gx_ok{
-    font-size: 6vw;
+    font-size: 18px;
     color: #89cb5e;
     text-align: center;
 }
 .money2{
     text-align: center;
-    font-size: 9vh;
+    font-size: 50px;
 }
 .linex{ margin: 2% 4% 6%;border-bottom:1px solid #666}
 
 .lineb{
-    line-height: 7vh;
+    line-height: 34px;
     margin: 0 4%;
     color: #9a9a9a;
-    font-size: 3vh;
+    font-size: 18px;
 }
 .lineb .lie_r{
     float: right;
@@ -31,7 +31,7 @@
     border-radius: 4px;
     display: inline-block;
     color: #fff;
-    font-size: 5vw;
+    font-size: 18px;
     margin-right: 2%;
 }
 .bg_y{

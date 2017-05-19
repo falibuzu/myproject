@@ -11,7 +11,10 @@
 .chose .cho{
     font-size: 1.2pc;
 }
-.cp_img{}
+.cp_img{
+    margin: auto;
+    max-width: 600px;
+}
 .cp_img img{ width: 100%; height: 100%}
 .potin{ background-repeat: no-repeat;background-position: 90% center;}
 .pt1{ background-image: url(../images/point1.gif)}

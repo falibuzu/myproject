@@ -16,6 +16,7 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/jquery.hiSlider.min.css">
 <link rel="stylesheet" href="css/cp_xq.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,16 +28,16 @@
 </head>
 <body>
  <div class="navbar navbar-top">
- <div class="sico sico3 fl"></div>
- <div class="sico sico1 fr"></div>
+ <a href="" class="sico sico3 fl"></a>
+ <a href="" class="sico sico4 fr"></a>
  <div class="tittle">产品详情</div>
  </div>
  
- <div class="xq_img"><img src="images/xq_01.jpg" alt=""/></div>
+ <ul class="xq_img hiSlider"><li class="hiSlider-item"><img src="images/xq_01.jpg" alt=""/></li><li class="hiSlider-item"><img src="images/xq_01.jpg" alt=""/></li></ul>
 <div class="ms_txt">美沫童装男童套装夏装女童春装休闲两件套夏季新款2016 M29 米奇短套 100CM</div> 
  <div class="txta">
  	 <div class="btn-r"><div class="qd_tn">降价</div>&emsp;<div class="qd_tn">免运费</div></div>
-	 <div class="jiage red">¥  128.0</div>
+	 <div class="jiage red">¥128.0</div>
 	 <div class="ping">好评率 90%   245条评论</div>
  
  </div>
@@ -103,6 +104,7 @@
 		
 		
 	</ul>
+	<ul class="xq">2222</ul>
 </div>
 
 <div class="hang2"></div>
@@ -120,7 +122,27 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
 
+<script src="js/jquery.hiSlider.min.js"></script>
+<script>
+	
+$(function () {
+$('.xq_img').hiSlider();
+	
+	
+
+   $(".cp_navs li").each(function(index){
+       $(this).click(
+       function(){
+     $(".cp_navs li.on").removeClass("on");
+     $(this).addClass("on");
+     $(".cp_box > .xq:visible").hide();
+     $(".cp_box .xq:eq(" + index + ")").show();
+/*mouseleave*/
+   })
+   })	
+	
+});
+</script>
 </body>
 </html>

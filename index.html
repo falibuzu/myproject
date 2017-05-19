@@ -21,6 +21,7 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/jquery.hiSlider.min.css">
 <link rel="stylesheet" href="css/style.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,30 +38,33 @@
  </div>
  
  
-<div id="myCarousel" class="carousel slide">
-    <!-- 轮播（Carousel）指标 -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>   
+<div class="carousel">
+
     <!-- 轮播（Carousel）项目 -->
-    <div class="carousel-inner">
-        <div class="item active">
+    <ul class="carousel-inner hiSlider">
+        <li data-title="11111"  class="hiSlider-item">
             <img src="images/ad1.jpg" alt="First slide">
-        </div>
-        <div class="item">
+        </li>
+        <li data-title="22222"  class="hiSlider-item">
             <img src="images/ad1.jpg" alt="Second slide">
-        </div>
-        <div class="item">
+        </li>
+        <li data-title="33333"  class="hiSlider-item">
             <img src="images/ad1.jpg" alt="Third slide">
-        </div>
-    </div>
-    <!-- 轮播（Carousel）导航 -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹
-    </a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">›
-    </a>
+        </li>
+    </ul>
+<!-- 
+
+ <ul class="hiSlider hiSlider1 carousel-inner">
+		        <li data-title="11111" class="hiSlider-item"><img src="images/ad1.jpg" alt="11111"></li>
+		        <li data-title="22222" class="hiSlider-item"><img src="images/ad1.jpg" alt="22222"></li>
+		        <li data-title="33333" class="hiSlider-item"><img src="images/ad1.jpg" alt="33333"></li>
+		        <li data-title="44444" class="hiSlider-item"><img src="images/ad1.jpg" alt="44444"></li>
+		        <li data-title="55555" class="hiSlider-item"><img src="images/ad1.jpg" alt="55555"></li>
+		    </ul>
+
+-->
+
+
 </div>
 <div class="nv_row">
 <div class="daohang">
@@ -148,8 +152,15 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
-
+<!-- Include all compiled plugins (below), or include individual files as needed 
+<script src="js/bootstrap.js"></script>--> 
+<script src="js/jquery.hiSlider.min.js"></script>
+<script>
+	
+	
+$(function () {
+$('.carousel-inner').hiSlider();
+});
+</script>
 </body>
 </html>

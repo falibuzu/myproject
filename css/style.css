@@ -11,20 +11,22 @@
 .m_ico3 b{background-image:url(../images/a_ico3.png)}
 .m_ico4 b,.m_ico5 b,.m_ico6 b{background-image:url(../images/a_ico4.png)}
 .m_ico p{margin:9pt 0 0;color:#fff;text-align:center;font-size:18px}
-.nv_row{margin:10px 3%}
+.nv_row{margin: 10px 10px;}
 .daohang{overflow:hidden;padding-bottom:10px}
 .main_search{position:relative;background:#f3f3f3}
 .main_search .m_txt{width:80%;border:0;background:0 0}
 .main_search .search_btn{position:absolute;top:0;right:0;padding:4px}
 
 .carousel-inner .item img{ width: 100%}
-.tittle{height:44px}
-.tittle h2{display:inline-block;margin-top:9pt;margin-left:3%;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
+.tittle{height:44px;/* border: 1px solid; */}
+.tittle h2{display:inline-block;margin-top:9pt;margin-left: 10px;padding-left:11px;height:24px;border-left:6px solid #f2372e;font-size:1pc;line-height:24px}
 .tittle .more{float:right;margin:14px 8px 0 0;color:#999}
 .tittle .con{color:#666}
 .border1{overflow:hidden;border-top:1px solid #e3e3e3;background:#ececec}
 .img_link,.img_link li{margin:5px 0;padding:0}
 .img_link li img{width:100%}
+
+
 .list-top{overflow:hidden}
 .list-top img{width:100%}
 .bx_right{float:right}
@@ -42,12 +44,26 @@
 .ggc{vertical-align: middle;float:right;display:block;margin: 2px 5% 0 0;width: 40%;height: 1.8pc;border-radius:4px;background: #fc462a url("../images/ggc.png") center center no-repeat;background-size: auto 60%;} 
 
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-inner > .item {
+    position: relative;
 
+	float: left
+}
+.carousel{ text-align:center}
+.hiSlider-wrap{ margin: auto}
+
+.hiSlider-item img{ width:100%}
 
 
 @media (min-width:321px){.m_ico{height:90px;border-radius:9pt}
 .m_ico b{margin-top:11px;height:42px}
 .m_ico p{margin:6px 0 0;font-size:1pc}
+
 }
 @media (min-width:721px){.m_ico{height:90pt;border-radius:9pt}
 .m_ico b{margin-top:15px;height:52px}

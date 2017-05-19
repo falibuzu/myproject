@@ -410,7 +410,7 @@ a:focus {
   width: 100%;
   min-height: 30px;
   margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  *margin-left: 2.0744680851063810px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -446,7 +446,7 @@ a:focus {
 
 .row-fluid .span8 {
   width: 65.95744680851064%;
-  *width: 65.90425531914893%;
+  *width: 65.904255319148910px;
 }
 
 .row-fluid .span7 {
@@ -471,7 +471,7 @@ a:focus {
 
 .row-fluid .span3 {
   width: 23.404255319148934%;
-  *width: 23.351063829787233%;
+  *width: 23.3510638297872310px;
 }
 
 .row-fluid .span2 {
@@ -481,7 +481,7 @@ a:focus {
 
 .row-fluid .span1 {
   width: 6.382978723404255%;
-  *width: 6.329787234042553%;
+  *width: 6.3297872340425510px;
 }
 
 .row-fluid .offset12 {
@@ -531,7 +531,7 @@ a:focus {
 
 .row-fluid .offset8:first-child {
   margin-left: 68.08510638297872%;
-  *margin-left: 67.9787234042553%;
+  *margin-left: 67.97872340425510px;
 }
 
 .row-fluid .offset7 {
@@ -551,7 +551,7 @@ a:focus {
 
 .row-fluid .offset6:first-child {
   margin-left: 51.063829787234035%;
-  *margin-left: 50.95744680851063%;
+  *margin-left: 50.957446808510610px;
 }
 
 .row-fluid .offset5 {
@@ -561,7 +561,7 @@ a:focus {
 
 .row-fluid .offset5:first-child {
   margin-left: 42.5531914893617%;
-  *margin-left: 42.4468085106383%;
+  *margin-left: 42.44680851063810px;
 }
 
 .row-fluid .offset4 {

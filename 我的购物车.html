@@ -83,7 +83,7 @@
  
  <div style="line-height: 10vh;"></div>
  <ul class="chose_btn">
- 	<li class="chos_all"><img src="images/q_n.png"> 全选</li>
+ 	<li class="chos_all"><i></i>全选</li>
     <li class="del"><img src="images/ico_del.png"> 删除</li>
     <li class="buy">立即购买</li> 
  </ul>
@@ -92,6 +92,46 @@
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+
+
+<script type="text/javascript">
+$(function(){
+    $(window).resize(function(){
+          $(".tx_r").width($("body").width()-128);    
+		
+    });   
+    $(window).resize();
+	
+	
+	
+	$(".cp_line .chose_d").click(function(){		   
+		   if($(this).hasClass("cn")){
+			 $(this).removeClass("cn").addClass("cy");			   
+		   }else if($(this).hasClass("cy")){
+			 $(this).removeClass("cy").addClass("cn");
+		   }
+	})
+	
+	$(".chos_all").click(function(){       
+		   
+		if(!$(this).hasClass("on")){
+			$(this).addClass("on");
+			$(".cp_line .chose_d").removeClass("cn").addClass("cy");	
+		}else{
+			$(this).removeClass("on");
+			$(".cp_line .chose_d").removeClass("cy").addClass("cn");
+		}
+		 
+			 
+		   
+	})
+	
+	
+	
+	
+	
+});
+</script>
 
 </body>
 </html>
