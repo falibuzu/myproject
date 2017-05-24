@@ -16,86 +16,11 @@
 
 
 <script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/jquery.mobile-1.3.1.min.js"></script>
-<script type="text/javascript"> 
-//setInterval("Pageright()",1000);
-//setInterval("Pageleft()",100);
-var asd = "0";
-//alert(asd);
-$(document).on("pageinit", function ()
-{
-    $('#page1').on("swiperight", function ()
-    {
-        if (asd == "0") {
-            $("#defaultpanel").panel("open");
-            asd = "1";
-            //alert(asd);
-        }
-        else if (asd == "2") {
-            $("#rightpanel1").panel("close");
-            //alert(asd);
-            asd = "0";
-            //alert(asd);
-        }
-    });
-    $('#page1').on("swipeleft", function ()
-    {
-        if (asd == "0") {
-            $("#rightpanel1").panel("open");
-            asd = "2";
-            //alert(asd);
-        }
-        else if (asd == "1") {
-            $("#defaultpanel").panel("close");
-            //alert(asd);
-            asd = "0";
-            //alert(asd);
-        }
-    });
-});
-$(function () 
-{
-    $('#rightpanel1').bind("swiperight", function ()
-    {
-        $("#page1").panel( "close");
-        $.mobile.changePage("#page1", {
-            transition : "slide"
-        });
-    });
-    $('#defaultpanel').bind("swipeleft", function ()
-    {
-        $("#page1").panel( "close");
-        // $.mobile.changePage("#page1",{ transition: "slide"});
-    });
-});
-/*****滑向左边显示右边******/
-/*<!--    function Pageleft(){
-        setTimeout($(function(){
-            $('#page1').bind("swipeleft",function(){
-                $("#rightpanel1").panel("open");
-            });
-            $('#page1').bind("swiperight",function(){
-                $("#rightpanel1").panel("close");
-            });
-        }),100);
-    }-->*/
 
-</script>
 
 </head>
 <body>
 
-<div data-role="page" id="page1">
-<div data-role="content">
-  <div id="wrapper">
-    <div id="scroller">
-    
-往右拉
-    </div>
-  </div>
-</div>
-
-<div data-role="panel" id="defaultpanel" data-theme="b" data-dom-cache="true">
 <div class="box_up">
 
 	<div class="img_h"><img src="images/img_px.jpg"></div>

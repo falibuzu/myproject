@@ -115,11 +115,12 @@
     .img_h img {
         height: 40vw;
         border-radius: 999px;
+        max-height: 130px;
     }
 
 .box_up .p1 {
     position: absolute;
-    line-height: 14vw;
+    line-height: 40px;
     font-size: 30px;
     color: #ffdc52;
     left: 0;
@@ -379,18 +380,18 @@
 
 .left_list {
     background-color: #fff;
-    padding: 3% 0 1% 6%;
+    padding: 12px 0 8px 22px;
 }
 
     .left_list li {
-        height: 10vw;
-        font-size: 18px;
-        line-height: 10vw;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
     }
 
     .left_list .ic {
         vertical-align: middle;
-        width: 5vw;
+        width: 18px;
     }
 
 
@@ -402,7 +403,7 @@
 
 .er_box {
     background-color: #fff;
-    padding: 0 0 4% 5%;
+    padding: 0 0 55px 22px;
 }
 
     .er_box p {
@@ -412,7 +413,7 @@
 
 
 .cz_b {
-    position: absolute;
+    position: fixed;
     background-color: #fff;
     line-height: 4.5vh;
     overflow: hidden;

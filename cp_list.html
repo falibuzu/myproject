@@ -28,7 +28,7 @@
 <body>
  <div class="navbar navbar-top">
  <a href="" class="sico sico3 fl"></a>
- <a href="" class="sico sico4 fr"></a>
+ <a href="javascript:void(0)" class="sico sico4 fr xinxi"></a>
  <div class="tittle">购物商城</div>
  </div>
  
@@ -54,12 +54,46 @@
 
 <div class="foot">  京ICP备08010314号-19  京公网安备110000000006号</div>
 
+<div class="iframe_box">
+ <iframe src="右拉菜单.html"></iframe>
 
+<div class="if_bg"></div>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+<script>
 
+$(function () {
+	$(".potin").click(function(){
+		if(!$(this).hasClass("p_up")){
+			$(this).addClass("p_up");		
+	}	else{
+			$(this).removeClass("p_up");	
+			
+			}					   
+							   
+							   
+	})
+	
+	
+	
+	$(".xinxi").click(function(){
+							   
+		$(".iframe_box").fadeIn();					   
+							   
+	})
+	$(".if_bg").click(function(){
+							   
+		$(".iframe_box").slideUp();				   
+							   
+	})
+			
+});
+
+
+</script>
 </body>
 </html>
