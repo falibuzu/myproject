@@ -41,6 +41,7 @@
 }
 
 .cp_box{
+    padding-bottom: 54px;
     margin: 8px 2%;
     overflow: hidden;
 }
@@ -106,8 +107,13 @@
 .cp_navs li.on{line-height: 37px;border-bottom: 3px solid #fc462a;color:#fc462a}
 
 .by_bt{
+    background-color: #fff;
+    left: 0;
+    position: fixed;
     height: 54px;
     line-height: 54px;
+    width: 100%;
+    bottom: 0;
 }
 .by_bt .ico{
     margin: 9px auto 0;
